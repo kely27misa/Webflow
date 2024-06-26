@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Webflow</title>
+  <link rel="stylesheet" href="/css/webflow.css">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <script type="text/javascript" src="js/index.js" defer></script>
+</head>
+
+<body>
+  <div id="cartContainer" class="cart-container">
+    <div class="cart">
+      <div class="header-cart">
+        <h2>Your Cart</h2>
+        <span id="icon-close" class="material-icons">close</span>
+      </div>
+      <div class="separator-cart">
+        <div class="line-cart"></div>
+      </div>
+      <div class="container-product">
+        <img src="/imagens/product1.png">
+        <div class="column">
+          <h5>plainness</h5>
+          <p>$ 40.00 USD</p>
+          <p>Colour: <span class="diferent-color">White</span></p>
+          <p>remove</p>
+        </div>
+        <input class="input-quantidade" type="number" name="quantidade">
+      </div>
+      <div class="container-product">
+        <img src="/imagens/product2.png">
+        <div class="column">
+          <h5>simplicity</h5>
+          <p>$ 40.00 USD</p>
+          <p>Colour: <span class="diferent-color">White</span></p>
+          <p>remove</p>
+        </div>
+        <input class="input-quantidade" type="number" name="quantidade">
+      </div>
+      <div class="container-product">
+        <img src="/imagens/product3.png">
+        <div class="column">
+          <h5>lucidity</h5>
+          <p>$ 50.00 USD</p>
+          <p>Colour: <span class="diferent-color">White</span></p>
+          <p>remove</p>
+        </div>
+        <input class="input-quantidade" type="number" name="quantidade">
+      </div>
+      <div class="separator-cart">
+        <div class="line-cart"></div>
+      </div>
+      <div class="subtotal-container">
+        <p>Subtotal</p>
+        <p>$ 445.00 USD</p>
+      </div>
+      <div class="checkout-container">
+        <a href="#">
+          <p>continue to checkout</p>
+        </a>
+      </div>
+    </div>
+  </div>
+
+  <header id="header">
+    <a id="logo" href="/webflow.html">Store</a>
+    <nav>
+      <ul class="menu-container">
+        <li><a href="/MENU/products.html">Products</a></li>
+        <li><a href="/MENU/about.html">About</a></li>
+        <li><a href="/MENU/contact.html">Contact</a></li>
+        <li id="cartToggle" class="button-1"><a>Cart 3</a></li>
+      </ul>
+    </nav>
+  </header>
+  <main class="principal-container">
+    <div id="conteudo-1">
+      <h1>Build your dream store</h1>
+      <p>A simple Webflow Ecommerce template to get you started.</p>
+      <div class="button-container"><button><a href="/MENU/products.html">EXPLORE</a></button></div>
+    </div>
+  </main>
+  <aside class="aside-container1">
+    <div id="conteudo-2">
+      <h1>This is your space</h1>
+      <p class="fale-sobre">Talk about your business, your products, or yourself.</p>
+      <div class="separator">
+        <div class="line"></div>
+      </div>
+      <div id="template">
+        <p class="template-columns">Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident ut aperiam animi ab tempore eveniet ea autem laudantium porro aliquid totam tempora nihil temporibus, eaque unde sit nostrum ex molestias?</p>
+        <p class="template-columns">Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident ut aperiam animi ab tempore eveniet ea autem laudantium porro aliquid totam tempora nihil temporibus, eaque unde sit nostrum ex molestias?</p>
+      </div>
+    </div>
+  </aside>
+  <aside class="aside-container2">
+    <h3>Featured Products</h3>
+    <p class="p-1">Check out new and popular products</p>
+    <div class="all-cards">
+      <div class="card">
+        <a href="/produtos/awesomeness.html">
+          <p class="plan">awesomeness</p>
+          <p class="value">$ 50.00 USD</p>
+        </a>
+      </div>
+      <div class="card">
+        <a href="/produtos/directness.html">
+          <p class="plan">directness</p>
+          <p class="value">$ 60.00 USD</p>
+        </a>
+      </div>
+      <div class="card">
+        <a href="/produtos/simplicity.html">
+          <p class="plan">simplicity</p>
+          <p class="value">$ 40.00 USD</p>
+        </a>
+      </div>
+    </div>
+  </aside>
+  <aside class="aside-container3">
+    <p class="cont-1">Monthly Newsletter</p>
+    <p class="cont-2">Sign up to receive updates from our shop, including new tea selections and upcoming events.</p>
+    <form class="register-container">
+      <input type="text" name="e-mail" placeholder="Enter your email">
+      <input type="submit" value="Submit">
+    </form>
+  </aside>
+  <footer id="footer-container">
+    <a id="logo2" href="/webflow.html">Store</a>
+    <div class="list-container">
+      <ul class="list">
+        <p class="bold">Menu</p>
+        <li><a href="/webflow.html">Home</a></li>
+        <li><a href="/MENU/about.html">About</a></li>
+        <li><a href="/MENU/contact.html">Contact</a></li>
+        <li><a href="/products/products.html">Products</a></li>
+        <li><a href="/MENU/footer/blog.html">Blog</a></li>
+      </ul>
+    </div>
+    <div class="list-container">
+      <ul class="list">
+        <p class="bold">Categories</p>
+        <li><a href="/our_products/category_1.html">Category 1</a></li>
+        <li><a href="/our_products/category_2.html">Category 2</a></li>
+        <li><a href="/our_products/category_3.html">Category 3</a></li>
+        <li><a href="/our_products/category_4.html">Category 4</a></li>
+      </ul>
+    </div>
+    <div class="list-container">
+      <ul class="list">
+        <p class="bold">Help</p>
+        <li><a href="/MENU/contact.html">Shipping</a></li>
+        <li><a href="/MENU/contact.html">Returns & exchange</a></li>
+        <li><a href="/MENU/products.html">Product care</a></li>
+      </ul>
+    </div>
+    <div class="list-container">
+      <ul class="list">
+        <p class="bold">Follow</p>
+        <li><a href="#">Instagram</a></li>
+        <li><a href="#">Facebook</a></li>
+        <li><a href="#">Twitter</a></li>
+      </ul>
+    </div>
+  </footer>
+  <div class="end">
+    <p class="w1">w</p>
+    <a class="webflow" href="#">Powered by Kely</a>
+  </div>
+
+</body>
+
+</html>
